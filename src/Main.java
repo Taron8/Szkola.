@@ -19,7 +19,7 @@ public class Main {
         Nauczyciel NauczycielSn = new Nauczyciel("Sebastian","Nowak", "jezyk polski","wf");
         System.out.println(NauczycielSn);
         Uczen uczen3 = new Uczen("Zbigniew","Chujowy",12);
-
+        System.out.println(uczen3);
         Klasa klasa2AC = new Klasa("Klasa_ac",uczen1P2,uczen1P1);
         klasa2AC.dodajUczniaDoKlasy(uczen3);
         System.out.println(klasa2AC);

@@ -15,5 +15,7 @@ public class Main {
         Uczen uczen1P2 = new Uczen("Emilia","Pragmatyczna",9);
         System.out.println(uczen1P2);
         System.out.println(uczen1P1);
+        Nauczyciel NauczycielSn = new Nauczyciel("Sebastian","Nowak", "jezyk polski","wf");
+        System.out.println(NauczycielSn);
     }
 }

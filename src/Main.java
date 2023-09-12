@@ -20,5 +20,9 @@ public class Main {
 
         Klasa klasa2AC = new Klasa("Klasa_ac",uczen1P2,uczen1P1);
         System.out.println(klasa2AC);
+        Klasa klasa3AC = new Klasa(klasa2AC);
+        System.out.println(klasa3AC);
+        Wychowawca wychowawca = new Wychowawca("Anna","Maciej",klasa3AC,"technika","matematyka","fizyka");
+        System.out.println(wychowawca);
     }
 }
